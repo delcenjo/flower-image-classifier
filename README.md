@@ -1,5 +1,7 @@
 # Flower Image Classifier
 
+![CI](https://github.com/delcenjo/flower-image-classifier/actions/workflows/ci.yml/badge.svg)
+
 Image classifier that recognises five flower species (daisy, dandelion, roses,
 sunflowers, tulips) using **transfer learning** with a pre-trained ResNet-18.
 
