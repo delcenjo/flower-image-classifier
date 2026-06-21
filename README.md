@@ -1,9 +1,16 @@
 # Flower Image Classifier
 
 ![CI](https://github.com/delcenjo/flower-image-classifier/actions/workflows/ci.yml/badge.svg)
+[![Live demo](https://img.shields.io/badge/Live_demo-Spaces-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/spaces/delcenjo/flower-classifier-demo)
+[![Model](https://img.shields.io/badge/Model-Hub-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/delcenjo/flower-image-classifier)
 
 Image classifier that recognises five flower species (daisy, dandelion, roses,
 sunflowers, tulips) using **transfer learning** with a pre-trained ResNet-18.
+
+> 🚀 **Try it live:** upload a flower photo at the
+> [interactive demo on Hugging Face Spaces](https://huggingface.co/spaces/delcenjo/flower-classifier-demo).
+> The trained model is also published on the
+> [Hugging Face Hub](https://huggingface.co/delcenjo/flower-image-classifier).
 
 Instead of training a convolutional network from scratch, the ImageNet backbone
 is frozen and only a new classification head is trained. This reaches strong
