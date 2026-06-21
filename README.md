@@ -8,7 +8,7 @@
 Image classifier that recognises five flower species (daisy, dandelion, roses,
 sunflowers, tulips) using **transfer learning** with a pre-trained ResNet-18.
 
-> 🚀 **Try it live:** upload a flower photo at the
+> **Try it live:** upload a flower photo at the
 > [interactive demo on Hugging Face Spaces](https://huggingface.co/spaces/delcenjo/flower-classifier-demo).
 > The trained model is also published on the
 > [Hugging Face Hub](https://huggingface.co/delcenjo/flower-image-classifier).
